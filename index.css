@@ -37,7 +37,16 @@ body {
     
 }
 
+/* p {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+} */
+
 .resultado {
+    display: flex;
+    flex-wrap: nowrap;
     border: 2px solid red;
     border-left: 0px ;
     border-top: 0px ;
