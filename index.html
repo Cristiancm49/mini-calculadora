@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi calculadora</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="titulo-calculadora">
+
+            <h1 class="titulo"> MI CALCULADORA</h1>
+
+        </div>
+        <div class="sub-container">
+
+            <div class="contenedor-inputs">
+                <div class="formulario">
+                    <label for="valor1" class="label valor-1">
+                        <span for="valor1">Valor 1:</span>
+                        <input type="text" name="valor1" id="valor1" placeholder="Ingrese un valor">
+                    </label>
+    
+                    <label for="valor2" class="label valor-2">
+                        <span for="valor2">Valor 2:</span>
+                        <input type="text" name="valor2" id="valor2" placeholder="Ingrese un valor">
+                    </label>
+                    <div class="resultado">
+                        <a>Resultado: <p class="respuesta"></p></a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+           
+            <div class="acciones-calculadora">
+                <button class="btn btn-sumar" onclick="sumarNumeros()">Sumar (+)</button>
+                <button class="btn btn-restar">Restar (-)</button>
+                <button class="btn btn-dividir">Dividir (/)</button>
+                <button class="btn btn-multiplicar">Multiplicar (x)</button>
+            </div>
+
+        </div>
+
+
+    
+    </div>
+    <script src="./script.js"></script>
+
+
+   
+</body>
+</html>
